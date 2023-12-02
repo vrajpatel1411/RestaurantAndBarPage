@@ -30,6 +30,9 @@
   .section_padding {
     @apply py-16 px-8 md:p-16 lg:py-16 lg:px-24;
   }
+  .web_buttons {
+    @apply bg-crimson text-black font-base font-bold tracking-tightest text-lg py-2 px-6 rounded-[1px] outline-none border-none cursor-pointer;
+  }
 }
 
 /*  display: flex;

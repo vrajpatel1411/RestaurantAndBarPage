@@ -1,6 +1,7 @@
 import "./Header.css";
 import { SubHeading } from "../../components";
 import images from "../../constants/images";
+import Button from "../../components/Buttons/buttons";
 // import { image } from "../../constants/images.jsx";
 
 const Header = () => {
@@ -21,9 +22,7 @@ const Header = () => {
           Volutpat Morbi Facilisis Quam Scelerisque Sapien. Et, Penatibus
           Aliquam Amet Tellus
         </p>
-        <button className="bg-crimson text-black font-base font-bold tracking-tighest text-lg py-2 px-6 rounded-[1px] outline-none border-none cursor-pointer">
-          Explore More
-        </button>
+        <Button name="Explore More" />
       </div>
       <div className=" flex-1 display-flex justify-center items-center mt-20 mx- md:ml-8 lg:mt-0">
         {/*app__wrapper_img*/}

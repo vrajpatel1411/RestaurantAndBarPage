@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "backg-image": "url('src/assets/bg.png')",
+      },
       fontFamily: {
         base: [
           '"Cormorant Upright", "serif"',
