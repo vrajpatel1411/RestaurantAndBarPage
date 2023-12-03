@@ -2,13 +2,13 @@ import "./App.css";
 
 import {
   AboutUs,
-  Chef,
-  FindUs,
-  Footer,
-  Gallery,
+  // Chef,
+  // FindUs,
+  // Footer,
+  // Gallery,
   Header,
-  Intro,
-  Laurels,
+  // Intro,
+  // Laurels,
   SpecialMenu,
 } from "./container";
 import { Navbar } from "./components";
