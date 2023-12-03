@@ -9,7 +9,7 @@ const AboutUs = () => (
     </div>
     <div className="relative flex flex-col lg:flex-row justify-center items-center z-50">
       <div className="flex-1 flex flex-col justify-end items-end text-right">
-        <h1 className="font-base text-golden font-bold tracking-tighest capitalize  text-[64px] ">
+        <h1 className="font-base text-golden font-bold tracking-tighest capitalize lg:mb-2 text-3xl lg:text-[64px] ">
           About Us
         </h1>
         <img
@@ -29,7 +29,7 @@ const AboutUs = () => (
       </div>
 
       <div className="flex-1 flex flex-col justify-start items-start text-left">
-        <h1 className="font-base text-golden font-bold tracking-tighest capitalize text-[64px] ">
+        <h1 className="font-base text-golden lg:mb-2 font-bold tracking-tighest capitalize text-3xl lg:text-[64px] ">
           Our History
         </h1>
         <img

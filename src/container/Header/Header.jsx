@@ -14,7 +14,7 @@ const Header = () => {
       <div className="flex-1 w-full flex flex-col justify-center items-start">
         {/* app__wrapper_info*/}
         <SubHeading title="Chase the New Flavour" />
-        <h1 className="font-base text-golden font-bold tracking-tighest capitalize text-8xl/[117px] ">
+        <h1 className="font-base text-golden font-bold tracking-tighest capitalize text-3xl lg:text-8xl/[117px] ">
           The Key to Fine Dining
         </h1>
         <p className="p_opensans my-8 mx-0">

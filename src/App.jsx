@@ -14,12 +14,12 @@ import {
 import { Navbar } from "./components";
 
 const App = () => (
-  <div>
+  <div className="all-selectors">
     <Navbar />
     <Header />
     <AboutUs />
-    {/*<SpecialMenu />
-    <Chef />
+    <SpecialMenu />
+    {/* <Chef />
     <Intro />
     <Laurels />
     <Gallery />

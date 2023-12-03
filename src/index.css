@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer base {
+  * {
+    @apply box-border p-0 m-0 scroll-smooth;
+  }
 }
 /*@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
@@ -18,13 +21,13 @@
   --color-white: #ffffff;
 }
 
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
 }
-
 a {
   color: unset;
   text-decoration: none;
