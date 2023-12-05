@@ -1,7 +1,9 @@
 import Button from "../../components/Buttons/buttons";
 import images from "../../constants/images";
+
 const AboutUs = () => (
-  <div className=" bg-backg-image w-full h-full relative section_padding">
+  // bg-backg-image w-full h-full relative section_padding
+  <div className=" bg-[url('../../assets/bg.png')] w-full h-full relative section_padding ">
     <div className="flex justify-center items-center absolute inset-0 z-0">
       <img
         src={images.G}
