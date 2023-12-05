@@ -2,7 +2,7 @@ import "./App.css";
 
 import {
   AboutUs,
-  // Chef,
+  Chef,
   // FindUs,
   // Footer,
   // Gallery,
@@ -19,8 +19,8 @@ const App = () => (
     <Header />
     <AboutUs />
     <SpecialMenu />
-    {/* <Chef />
-    <Intro />
+    <Chef />
+    {/* <Intro />
     <Laurels />
     <Gallery />
     <FindUs />
