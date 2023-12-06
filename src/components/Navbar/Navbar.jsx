@@ -46,6 +46,13 @@ const Navbar = () => {
         </a>
       </div>
       <div className="app__navbar-smallscreen">
+        <GiHamburgerMenu
+          color="#fff"
+          fontSize={27}
+          onClick={() => {
+            setToggleMenu(true);
+          }}
+        />
         {toggleMenu && (
           <div className="  app__navbar-smallscreen_overlay animate-custom-menu  ">
             <MdOutlineRestaurantMenu
