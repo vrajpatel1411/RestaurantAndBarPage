@@ -22,7 +22,6 @@ const AboutUs = () => (
           adipiscing ultrices vulputate posuere tristique. In sed odio nec
           aliquet eu proin mauris et.
         </p>
-        <Button name="Know More" />
       </div>
       <div className=" my-8 mx-16 flex justify-center items-center">
         <img
