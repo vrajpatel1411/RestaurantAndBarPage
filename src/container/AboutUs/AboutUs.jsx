@@ -9,7 +9,7 @@ const AboutUs = () => (
         src={images.G}
         className="w-3/6 lg:w-2/6"></img>
     </div>
-    <div className="relative flex flex-col lg:flex-row justify-center items-center z-50">
+    <div className="relative flex flex-col lg:flex-row justify-center items-center z-20">
       <div className="flex-1 flex flex-col justify-end items-end text-right">
         <h1 className="font-base text-golden font-bold tracking-tighest capitalize lg:mb-2 text-3xl lg:text-[64px] ">
           About Us

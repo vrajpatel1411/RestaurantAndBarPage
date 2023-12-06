@@ -1,6 +1,5 @@
 import images from "../../constants/images";
 import "./Chef.css";
-import Button from "../../components/Buttons/buttons";
 import { SubHeading } from "../../components";
 const Chef = () => (
   <div
