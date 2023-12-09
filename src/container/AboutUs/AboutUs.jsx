@@ -19,7 +19,6 @@ const AboutUs = () => {
           </h1>
           <LazyLoadImage
             src={images.spoon}
-            alt="spoon image"
             className="w-[45px]"
           />
 
@@ -33,7 +32,6 @@ const AboutUs = () => {
         <div className=" my-8 mx-16 flex justify-center items-center">
           <LazyLoadImage
             src={images.knife}
-            alt="knife image"
             className="w-3/6 md:w-4/6 lg:5/6"
           />
         </div>
@@ -45,7 +43,6 @@ const AboutUs = () => {
           <LazyLoadImage
             src={images.spoon}
             loading="lazy"
-            alt="spoon image"
             className=" w-[45px] mx-1"
           />
 

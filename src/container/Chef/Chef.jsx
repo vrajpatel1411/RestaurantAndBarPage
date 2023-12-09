@@ -14,7 +14,6 @@ const Chef = () => (
         className="w-4/5"
         src={images.chef}
         loading="lazy"
-        alt="header image"
       />
     </div>
     <div className="flex-1 w-full flex flex-col justify-center items-start my-8 lg:my-0">
@@ -50,7 +49,6 @@ const Chef = () => (
         <LazyLoadImage
           src={images.sign}
           loading="lazy"
-          alt="sign"
           width={120}
           className="my-4"
         />

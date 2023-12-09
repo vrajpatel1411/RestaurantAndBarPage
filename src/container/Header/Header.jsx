@@ -31,7 +31,6 @@ const Header = () => {
         <LazyLoadImage
           className="w-4/5"
           src={images.welcome}
-          alt="header image"
         />
       </div>
     </div>
