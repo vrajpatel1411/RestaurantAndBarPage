@@ -1,17 +1,21 @@
 import images from "../../constants/images";
 import "./Chef.css";
 import { SubHeading } from "../../components";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const Chef = () => (
   <div
-    className="bg-[url('/assets/bg.png')] app__wrapper section_padding "
+    className="bg-[url('/assets/bg.webp')] app__wrapper section_padding "
     id="home">
     {/* // app__header app_wrapper section_padding */}
     <div className=" flex-1 display-flex justify-center items-center mt-20 mx- md:ml-8 lg:mt-0">
       {/*app__wrapper_img*/}
-      <img
+      <LazyLoadImage
         className="w-4/5"
         src={images.chef}
-        alt="header image"></img>
+        loading="lazy"
+        alt="header image"
+      />
     </div>
     <div className="flex-1 w-full flex flex-col justify-center items-start my-8 lg:my-0">
       {/* app__wrapper_info*/}
@@ -21,10 +25,11 @@ const Chef = () => (
       </h1>
       <div className="w-full flex flex-col  my-16">
         <div className="flex-1 flex justify-start items-end my-4">
-          <img
+          <LazyLoadImage
             src={images.quote}
             width={35}
-            className=" mr-2 mb-4"></img>
+            className=" mr-2 mb-4"
+          />
           <p className="p_opensans ">
             Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Auctor Sit .
           </p>
@@ -42,10 +47,13 @@ const Chef = () => (
         <p className="font-base text-white font-medium tracking-tighest capitalize text-lg lg:text-xl">
           Chef & Founder
         </p>
-        <img
+        <LazyLoadImage
           src={images.sign}
+          loading="lazy"
+          alt="sign"
           width={120}
-          className="my-4"></img>
+          className="my-4"
+        />
       </div>
     </div>
   </div>

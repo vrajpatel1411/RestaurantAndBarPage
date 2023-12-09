@@ -38,9 +38,38 @@ export default {
             transform: "translateX(0%)",
           },
         },
+        spin1: {
+          "0%": {
+            borderTop: "8px solid #3498db",
+            transform: "rotate(0deg)",
+          },
+          "25%": {
+            borderTop: "8px solid #3498db",
+            borderRight: "8px solid #3498db",
+            transform: "rotate(90deg)",
+          },
+          "50%": {
+            borderTop: "8px solid #3498db",
+            borderRight: "8px solid #3498db",
+            borderBottom: "8px solid #3498db",
+            transform: "rotate(180deg)",
+          },
+          "75%": {
+            borderTop: "8px solid #3498db",
+            borderRight: "8px solid #3498db",
+            borderBottom: "8px solid #3498db",
+            borderLeft: "8px solid #3498db",
+            transform: "rotate(270deg)",
+          },
+          "100%": {
+            borderTop: "8px solid #3498db",
+            transform: "rotate(360deg)",
+          },
+        },
       },
       animation: {
         "custom-menu": "transform1 .5s linear ",
+        "custom-Loader": "spin1 4s linear infinite",
       },
     },
   },

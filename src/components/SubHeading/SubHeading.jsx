@@ -1,12 +1,14 @@
 import images from "../../constants/images";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const SubHeading = (props) => (
   <div className="mb-4">
     <p className="p_cormorant">{props.title}</p>
-    <img
-      className=" w-[45px]"
+
+    <LazyLoadImage
+      className="w-[45px]"
       src={images.spoon}
-      alt="Spoon Image"></img>
+      alt="Spoon Image"
+    />
   </div>
 );
 
