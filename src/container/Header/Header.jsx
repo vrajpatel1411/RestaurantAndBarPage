@@ -3,6 +3,7 @@ import { SubHeading } from "../../components";
 import images from "../../constants/images";
 import Button from "../../components/Buttons/buttons";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import Loading from "../../components/Loading/Loading";
 
 // import { image } from "../../constants/images.jsx";
 
@@ -28,11 +29,15 @@ const Header = () => {
       </div>
       <div className=" flex-1 display-flex justify-center items-center mt-20 mx- md:ml-8 lg:mt-0">
         {/*app__wrapper_img*/}
+        {/* <LazyLoad> */}
         <LazyLoadImage
           className="w-4/5"
           src={images.welcome}
+          placeholder={<Loading />}
           alt=""
         />
+
+        {/* </LazyLoad> */}
       </div>
     </div>
   );

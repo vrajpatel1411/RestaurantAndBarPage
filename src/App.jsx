@@ -8,6 +8,7 @@ const Lazy_AboutUS = lazy(() => import("./container/AboutUs/AboutUs.jsx"));
 const Lazy_chef = lazy(() => import("./container/Chef/Chef.jsx"));
 const Lazy_Header = lazy(() => import("./container/Header/Header.jsx"));
 const Lazy_specialMenu = lazy(() => import("./container/Menu/SpecialMenu.jsx"));
+const Lazy_Intro = lazy(() => import("./container/Intro/Intro.jsx"));
 
 const App = () => (
   <Suspense fallback={<Loading />}>
@@ -17,7 +18,7 @@ const App = () => (
       <Lazy_AboutUS />
       <Lazy_chef />
       <Lazy_specialMenu />
-
+      <Lazy_Intro />
       {/* <Intro />
     <Laurels />
     <Gallery />
