@@ -18,16 +18,19 @@ const Intro = () => {
     }
   };
   return (
-    <div className="">
+    <div className="relative h-[100vh]">
       <video
         src={meal}
         ref={videoRef}
         type="video/webm"
         loop
         controls={false}
+        className=" w-full h-full object-cover opacity-80"
         muted></video>
-      <div>
-        <div onClick={handlePlayer}>
+      <div className="absolute inset-0 z-50 flex justify-center items-center ">
+        <div
+          onClick={handlePlayer}
+          className="w-[100px] h-[100px] rounded-full border-solid border-golden border-2 flex justify-center items-center">
           {play ? (
             <BsPauseFill
               color="#fff"
