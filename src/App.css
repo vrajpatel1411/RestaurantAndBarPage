@@ -2,10 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.no-scrollbar {
+  width: 0px;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 @layer components {
   .app_navbar-links {
     @apply mx-4  cursor-pointer   hover:text-grey;
   }
+
   .p_opensans {
     @apply font-alt text-white font-normal tracking-tightest capitalize leading-7 text-xs sm:text-sm md:text-base/[1.75rem];
   }
@@ -32,6 +39,9 @@
   }
   .web_buttons {
     @apply bg-crimson text-black font-base font-bold tracking-tightest text-lg py-2 px-6 rounded-[1px] outline-none border-none cursor-pointer;
+  }
+  .gallery__arrow-icon {
+    @apply text-golden font-normal cursor-pointer bg-black rounded-md hover:text-white;
   }
 }
 

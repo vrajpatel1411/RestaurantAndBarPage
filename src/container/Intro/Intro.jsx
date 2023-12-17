@@ -18,28 +18,31 @@ const Intro = () => {
     }
   };
   return (
-    <div className="relative h-[100vh]">
+    <div
+      className="relative h-[100vh] "
+      // onClick={handlePlayer}
+    >
       <video
         src={meal}
         ref={videoRef}
         type="video/webm"
         loop
         controls={false}
-        className=" w-full h-full object-cover opacity-80"
+        className=" w-full h-full object-cover  "
         muted></video>
-      <div className="absolute inset-0 z-50 flex justify-center items-center ">
+      <div className="absolute inset-0 z-50 hidden hover:flex hover:justify-center">
         <div
           onClick={handlePlayer}
-          className="w-[100px] h-[100px] rounded-full border-solid border-golden border-2 flex justify-center items-center">
+          className="w-[150px] h-[150px] lg:w-[100px] lg:h-[100px]  rounded-full border-solid border-golden border-2 flex justify-center items-center">
           {play ? (
             <BsPauseFill
               color="#fff"
-              fontSize={30}
+              fontSize={100}
             />
           ) : (
             <BsFillPlayFill
               color="#fff"
-              fontSize={30}
+              fontSize={100}
             />
           )}
         </div>

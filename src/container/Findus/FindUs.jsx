@@ -17,13 +17,13 @@ const FindUs = () => {
         <h1 className="font-base text-golden font-bold tracking-tighest capitalize text-3xl lg:text-8xl/[117px] ">
           Find Us
         </h1>
-        <p className="p_opensans mt-10">
+        <p className="p_opensans my-8 mx-0">
           Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 756
         </p>
 
         <p className="p_cormorant text-golden mt-5">Opening Hours</p>
 
-        <div className="p_opensans mt-5">
+        <div className="p_opensans my-8 mx-0">
           <p>Mon - Fri: 10:00 Am - 02:00 Am</p>
           <p>Sat - Sun: 10:00 Am - 03:00 Am</p>
         </div>

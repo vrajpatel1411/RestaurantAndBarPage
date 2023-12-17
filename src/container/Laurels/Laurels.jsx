@@ -1,29 +1,8 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import images from "../../constants/images";
 import Awards from "../Laurels/Awards.jsx";
+import { data } from "../../constants/index.jsx";
 const Laurels = () => {
-  const laurels = [
-    {
-      image: `${images.award01}`,
-      title: "Bib Gourmond",
-      Description: "Lorem Ipsum Dolor Sit Amet, Consectetur.",
-    },
-    {
-      image: `${images.award02}`,
-      title: "Rising Star",
-      Description: "Lorem Ipsum Dolor Sit Amet, Consectetur.",
-    },
-    {
-      image: `${images.award03}`,
-      title: "AA Hospitality",
-      Description: "Lorem Ipsum Dolor Sit Amet, Consectetur.",
-    },
-    {
-      image: `${images.award05}`,
-      title: "Outstanding Chef",
-      Description: "Lorem Ipsum Dolor Sit Amet, Consectetur.",
-    },
-  ];
   return (
     <div className="bg-[url('/assets/bg.webp')] app__wrapper section_padding flex justify-center items-center">
       <div className="w-full lg:w-1/2">
@@ -39,12 +18,12 @@ const Laurels = () => {
           Our Laurels
         </h1>
         <div className="grid grid-cols-2 gap-10 mt-10 mb-10">
-          {laurels.map((laurel, index) => (
+          {data.awards.map((laurel, index) => (
             <Awards
               key={index}
-              image={laurel.image}
+              image={laurel.imgUrl}
               title={laurel.title}
-              description={laurel.Description}
+              description={laurel.subtitle}
             />
           ))}
         </div>
