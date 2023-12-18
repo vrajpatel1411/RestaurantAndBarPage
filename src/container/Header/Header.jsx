@@ -1,4 +1,3 @@
-import "./Header.css";
 import { SubHeading } from "../../components";
 import images from "../../constants/images";
 import Button from "../../components/Buttons/buttons";
