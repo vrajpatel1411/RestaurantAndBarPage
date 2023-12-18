@@ -12,6 +12,7 @@ const Lazy_Intro = lazy(() => import("./container/Intro/Intro.jsx"));
 const Lazy_Laurels = lazy(() => import("./container/Laurels/Laurels.jsx"));
 const Lazy_FindUs = lazy(() => import("./container/Findus/FindUs.jsx"));
 const Lazy_Gallery = lazy(() => import("./container/Gallery/Gallery.jsx"));
+const Lazy_Footer = lazy(() => import("./container/Footer/Footer.jsx"));
 const App = () => (
   <Suspense fallback={<Loading />}>
     <div className="all-selectors">
@@ -24,11 +25,7 @@ const App = () => (
       <Lazy_Laurels />
       <Lazy_Gallery />
       <Lazy_FindUs />
-      {/* <Intro />
-    <Laurels />
-   
-    <FindUs />
-    <Footer /> */}
+      <Lazy_Footer />
     </div>
   </Suspense>
 );

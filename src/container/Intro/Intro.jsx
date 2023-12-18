@@ -19,7 +19,7 @@ const Intro = () => {
   };
   return (
     <div
-      className="relative h-[100vh] "
+      className="relative h-[100vh]  "
       // onClick={handlePlayer}
     >
       <video
@@ -28,12 +28,12 @@ const Intro = () => {
         type="video/webm"
         loop
         controls={false}
-        className=" w-full h-full object-cover  "
+        className=" w-full h-full object-cover ease-[ease] duration-500  "
         muted></video>
-      <div className="absolute inset-0 z-50 hidden hover:flex hover:justify-center">
+      <div className="absolute inset-0 z-50 flex justify-center group items-center  ease-[ease] duration-500">
         <div
           onClick={handlePlayer}
-          className="w-[150px] h-[150px] lg:w-[100px] lg:h-[100px]  rounded-full border-solid border-golden border-2 flex justify-center items-center">
+          className="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px]  rounded-full border-solid opacity-0 group-hover:opacity-100 border-golden border-2 flex justify-center items-center">
           {play ? (
             <BsPauseFill
               color="#fff"
