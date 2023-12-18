@@ -1,4 +1,3 @@
-import "./SpecialMenu.css";
 import images from "../../constants/images";
 import Button from "../../components/Buttons/buttons";
 import { LazyLoadImage } from "react-lazy-load-image-component";
