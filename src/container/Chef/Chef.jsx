@@ -1,5 +1,5 @@
 import images from "../../constants/images";
-import "./Chef.css";
+
 import { SubHeading } from "../../components";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
