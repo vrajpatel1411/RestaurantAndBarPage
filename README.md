@@ -1,42 +1,63 @@
-# React + Vite
+# Gericth Restaurant Visual Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Gericth Restaurant Visual Experience project! This project is a UI implementation based on a Figma design, showcasing a static, responsive, and intuitive user interface. Leveraging React.js and Tailwind CSS, we achieved a remarkable 88% performance rating in Lighthouse. The fully responsive UI ensures optimal viewing across devices, while seamless navigation and a visually appealing footer enhance the overall user experience.
 
-Currently, two official plugins are available:
+## Project Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Tech Stack**: React.js, Tailwind CSS, Git
+- **Design**: [Figma Design](https://www.figma.com/design/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?node-id=0-1&t=Furpvm1WpfywkQYq-0)
+- **Performance**: 88% rating in Lighthouse
 
-# PreRequiste :-
+## Features
 
-Node - v16.16.0 - [Install](https://nodejs.org/dist/v16.16.0/win-x64/node.exe)
+- **Static and Responsive UI**: Ensures optimal viewing across all devices.
+- **Seamless Navigation**: Easy to navigate with a user-friendly interface.
+- **Visually Appealing Footer**: Enhances the overall user experience.
 
-# Installation :-
+## Getting Started
 
-Use npm package manager to install required packages and library
+To run this project on your local computer, follow the steps below.
 
-```bash
-npm install vite@8.11.0
-```
+### Prerequisites
 
-To create a project inside vite with react
+Make sure you have the following installed on your machine:
 
-```bash
-npx create vite [project name] -- --template react
-```
+- Node.js (v12 or later)
+- npm (v6 or later) or yarn (v1.22 or later)
 
-To run vite Project
+### Installation
 
-```bash
-cd [project name]
-npm run dev
-```
+1. **Clone the repository**:
+    ```bash
+    git clone <repository_url>
+    cd gericth-restaurant-visual-experience
+    ```
 
-To run this project make sure you have node.js:-
+2. **Install dependencies**:
+    If you are using npm:
+    ```bash
+    npm install
+    ```
+    If you are using yarn:
+    ```bash
+    yarn install
+    ```
 
-```bash
-git clone
-cd
-npm install
-npm run dev
-```
+### Running the Project
+
+1. **Start the development server**:
+    If you are using npm:
+    ```bash
+    npm run dev
+    ```
+    If you are using yarn:
+    ```bash
+    yarn dev
+    ```
+
+2. **Open the project in your browser**:
+    Once the development server is running, open your browser and navigate to:
+    ```
+    http://localhost:3000
+    ```
+
