@@ -7,6 +7,9 @@ Welcome to the Gericth Restaurant Visual Experience project! This project is a U
 - **Tech Stack**: React.js, Tailwind CSS, Git
 - **Design**: [Figma Design](https://www.figma.com/design/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?node-id=0-1&t=Furpvm1WpfywkQYq-0)
 - **Performance**: 88% rating in Lighthouse
+-  **Deploy**: Vercel
+
+# Check Live: [live Demo](https://gerichtbyvraj.vercel.app)
 
 ## Features
 
@@ -29,8 +32,8 @@ Make sure you have the following installed on your machine:
 
 1. **Clone the repository**:
     ```bash
-    git clone <repository_url>
-    cd gericth-restaurant-visual-experience
+    git clone https://github.com/vrajpatel1411/RestaurantAndBarPage.git
+    cd RestaurantAndBarPage
     ```
 
 2. **Install dependencies**:
