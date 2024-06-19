@@ -9,7 +9,7 @@ Welcome to the Gericth Restaurant Visual Experience project! This project is a U
 - **Performance**: 88% rating in Lighthouse
 -  **Deploy**: Vercel
 
-# Check Live: [live Demo](https://gerichtbyvraj.vercel.app)
+### Check Live: [live Demo](https://gerichtbyvraj.vercel.app)
 
 ## Features
 
